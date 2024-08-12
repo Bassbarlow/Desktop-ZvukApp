@@ -1,6 +1,6 @@
 {
   "name": "zvuk_app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Desktop app to listen music from zvuk.com",
   "main": "main.js",
   "scripts": {
