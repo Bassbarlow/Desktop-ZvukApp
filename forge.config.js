@@ -13,8 +13,9 @@ module.exports = {
       config:{
         repository:{
           owner: "Bassbarlow",
-          name: "Desktop ZvukApp"
-        }
+          name: "Desktop-ZvukApp"
+        },
+        authToken: process.env.GITHUB_TOKEN,
       }
     }
   ],

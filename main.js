@@ -1,4 +1,7 @@
 const { app, BrowserWindow, Menu, Tray } = require('electron');
+const { updateElectronApp } = require('update-electron-app');
+
+updateElectronApp(); // additional configuration options available
 
 app.on('before-quit', function () {
   isQuiting = true;
