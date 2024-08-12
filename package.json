@@ -1,18 +1,23 @@
 {
   "name": "zvuk_app",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Desktop app to listen music from zvuk.com",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url":"https://github.com/Bassbarlow/Desktop-ZvukApp.git"
+    "url": "https://github.com/Bassbarlow/Desktop-ZvukApp.git"
   },
   "scripts": {
     "start": "env-cmd -f .env electron-forge start",
     "startforge": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "env-cmd -f .env electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder"
+  },
+  "build":{
+    "appId":"com.Bassbarlow.ZvukApp"
   },
   "author": "Bassbarlow",
   "license": "ISC",
@@ -26,13 +31,12 @@
     "@electron-forge/plugin-fuses": "^7.4.0",
     "@electron-forge/publisher-github": "^7.4.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^31.3.1"
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "env-cmd": "^10.1.0",
-    "express": "^4.19.2",
-    "sberzvuk-api": "^2.1.9",
     "update-electron-app": "^3.0.0"
   }
 }
