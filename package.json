@@ -1,6 +1,6 @@
 {
   "name": "zvuk_app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Desktop app to listen music from zvuk.com",
   "main": "main.js",
   "repository": {
@@ -31,8 +31,7 @@
     "@electron-forge/plugin-fuses": "^7.4.0",
     "@electron-forge/publisher-github": "^7.4.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^31.3.1",
-    "electron-builder": "^24.13.3"
+    "electron": "^31.3.1"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
