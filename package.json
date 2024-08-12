@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "description": "Desktop app to listen music from zvuk.com",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/Bassbarlow/Desktop-ZvukApp.git"
+  },
   "scripts": {
     "start": "env-cmd -f .env electron-forge start",
     "startforge": "electron-forge start",
@@ -28,6 +32,7 @@
     "electron-squirrel-startup": "^1.0.1",
     "env-cmd": "^10.1.0",
     "express": "^4.19.2",
-    "sberzvuk-api": "^2.1.9"
+    "sberzvuk-api": "^2.1.9",
+    "update-electron-app": "^3.0.0"
   }
 }
