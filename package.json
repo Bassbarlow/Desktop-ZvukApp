@@ -4,10 +4,10 @@
   "description": "Desktop app to listen music from zvuk.com",
   "main": "main.js",
   "scripts": {
-    "start":"electron . start",
+    "start": "env-cmd -f .env electron-forge start",
     "startforge": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "electron-forge package",
+    "package": "env-cmd -f .env electron-forge package",
     "make": "electron-forge make"
   },
   "author": "Bassbarlow",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
+    "env-cmd": "^10.1.0",
     "express": "^4.19.2",
     "sberzvuk-api": "^2.1.9"
   }

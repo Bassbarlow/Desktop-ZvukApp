@@ -5,11 +5,12 @@ app.on('before-quit', function () {
 });
 
 const createWindow = () => {
+  console.log(process.env.CERT_PASS);
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
     title: 'ZvukApp',
-    icon:'./music-player.png',
+    icon:'./music-player.ico',
   });
   win.on('page-title-updated', (evt) => {
     evt.preventDefault();
