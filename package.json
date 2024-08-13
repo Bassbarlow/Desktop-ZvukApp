@@ -1,6 +1,6 @@
 {
   "name": "zvuk_app",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Desktop app to listen music from zvuk.com",
   "main": "main.js",
   "repository": {
@@ -16,8 +16,8 @@
     "app:dir": "electron-builder --dir",
     "app:dist": "electron-builder"
   },
-  "build":{
-    "appId":"com.Bassbarlow.ZvukApp"
+  "build": {
+    "appId": "com.Bassbarlow.ZvukApp"
   },
   "author": "Bassbarlow",
   "license": "ISC",
@@ -36,6 +36,7 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "env-cmd": "^10.1.0",
+    "path": "^0.12.7",
     "update-electron-app": "^3.0.0"
   }
 }
