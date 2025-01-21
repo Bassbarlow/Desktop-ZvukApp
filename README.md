@@ -1,6 +1,7 @@
 Simple electron app that give direct access to SberZvuk website </br>
 Простое приложение на electron которое позволяет открывать СберЗвук в отдельном окне,
 позволяя удобнее работать с своего рода плеером.
+![изображение](https://github.com/user-attachments/assets/c59d7bc0-ba79-4edd-a36a-436b5c4ca4b9)
 
 Для установки необходимо скачать последнюю версию со страницы релизов (файл с расширением .exe)
 ![изображение](https://github.com/user-attachments/assets/f12f432f-aea3-4b8e-b754-76da3c96328e)
