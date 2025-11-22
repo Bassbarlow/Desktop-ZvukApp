@@ -21,6 +21,7 @@ const createWindow = () => {
     evt.preventDefault();
     win.setTitle("ZvukApp");
   });
+  win.webContents.setUserAgent("Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36")
 
   win.loadURL('https://zvuk.com/');
   win.on('minimize',function(event){
